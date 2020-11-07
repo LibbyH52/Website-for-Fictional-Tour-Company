@@ -604,6 +604,9 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   transition: all .4s; }
+  .navigation__link:link span, .navigation__link:visited span {
+    display: inline-block;
+    margin-right: 1.5rem; }
 
 .navigation__link:hover, .navigation__link:active {
   background-position: 100%;
